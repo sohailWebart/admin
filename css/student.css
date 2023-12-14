@@ -1,0 +1,49 @@
+.form-area{
+	height: 450px;
+	overflow-y: scroll;
+	background-color: #fff;
+	box-shadow: 0 0 3px;
+	border: 0.1px solid #FF5403;
+
+}
+
+.form-area table tr td{
+	border: none;
+	padding: 3px 0px;
+	font-size: 17px;
+	letter-spacing: 0.2px;
+	font-family: redo;
+}
+
+.form-area table tr td input[type="text"], input[type="number"], input[type="email"], input[type="date"], input[type="file"]{
+	width: 325px!important;
+	background-color: #EAEAEA;
+}
+
+.form-area table tr td select{
+	width: 325px!important;
+	background-color: #EAEAEA;
+}
+
+.card{
+	height: 450px;
+	padding-bottom: 20px;
+	overflow-y: scroll;
+}
+.card table thead tr th{
+	text-align: center;
+	background-color: #FF5403;
+	color: #fff;
+	font-family: redo;
+}
+.card table tr td{
+	border:none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	letter-spacing: 0.2px;
+	font-family: redo;
+	text-transform: uppercase;
+}
+.card table tr td input[type="text"]{
+	width: 400px!important;
+}

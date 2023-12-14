@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.menu-area .menu{
+	height: 640px;
+	background-color: #FF5403;
+}
+.menu-area .menu .menu-top{
+	height: 200px;
+	background-color: #EAEAEA;
+}
+
+.menu-area .menu .menu-top img{
+	display: block;
+	margin: auto;
+}
+
+.menu-area .menu .menu-top h1{
+	font-family: redo;
+	padding-top: 10px;
+	font-weight: 600;
+	text-align: center;
+	font-size: 25px;
+}
+
+.menu-area .menu #menu-buttom{
+	height: 440px;
+}
+
+nav a{
+	display: block;
+	color: #fff;
+	text-decoration: none!important;
+	padding: 8px 7px;
+	font-family: redo;
+	font-size: 17px;
+	border-bottom: 0.1px solid #fff;
+}
+nav a i{
+	padding-right: 7px;
+}
+
+nav a.active, a:hover{
+	background-color: #fff;
+	color: #FF5403;
+}
+
+#drop, #drop1, #drop2{
+	float: right;
+	padding-top: 3px;
+}
+
+#submenu1 a{
+	background-color: #fff;
+	color:#FF5403;
+	border-bottom: 0.1px solid #FF5403;
+}
+#submenu2 a{
+	background-color: #fff;
+	color:#FF5403;
+	border-bottom: 0.1px solid #FF5403;
+}
+#submenu1, #submenu2{
+	display: none;
+}
+#submenu3 a{
+    background-color:#fff;
+    color: #FF5403;
+    border-bottom: 00.1px solid #FF5403;
+}
+#submenu3{
+    display: none;
+}
+.body{
+	height: 640px;
+	background-color: #F7F7F7;
+}
+
+.body .body-top{
+	height: 60px;
+	background-color: #FF5403;
+}
+
+.body .body-top .icon i{
+	color: #fff;
+	line-height: 55px;
+	margin-left: 15px;
+} 
+
+.card1{
+	height: 70px!important;
+	background-color: #EC255A!important;
+	box-shadow: 0 0 1px;
+}
+
+.card1 .card1-left{
+	height: 70px;
+	width: 35%;
+	float: left;
+	background-color: #A13333;
+}
+
+.card1 .card1-left i{
+	font-size: 50px;
+	color: #fff;
+	display: block;
+	padding-top: 7px;
+	text-align: center;
+}
+
+.card1 .card-right{
+	height: 70px;
+	width: 65%;
+	float: left;
+}
+
+.card1 .card1-right .card1-right-top span{
+	font-weight: 500;
+	padding-top: 8px;
+	display: block;
+	text-align: center;
+}
+
+#bars{
+	display: none;
+}
+
+@media(max-width: 600px){
+	#bars{
+		display: block;
+		margin-right: 10px;
+		float: right!important;
+	}
+
+	#menu-buttom{
+		display: none;
+	}
+	.menu{
+		height: auto!important;
+	}
+	.card1{
+		margin-top: 10px;
+	}
+}
